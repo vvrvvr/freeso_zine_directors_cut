@@ -15,7 +15,13 @@ public class EnvironmentManager : MonoBehaviour
     [System.Serializable]
     public class PageEnvironmentTrigger
     {
+        [TextArea(1, 3)]
+        public string note; 
+        
         public int pageNumber;                     // На какой странице срабатывает
+        
+                               // Заметка для себя
+
         public List<GameObject> activateObjects;   // Объекты, которые включаем
         public List<GameObject> deactivateObjects; // Объекты, которые выключаем
         public List<TextureSwap> textureSwaps;     // Замены текстур
