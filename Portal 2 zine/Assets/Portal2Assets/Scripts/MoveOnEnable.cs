@@ -6,6 +6,14 @@ public class MoveOnEnable : MonoBehaviour
     public float inactiveY = -5f;    // Позиция по Y при деактивации
     public float speed = 2f;         // Скорость движения
 
+    private void Awake()
+    {
+        // Стартуем всегда с позиции inactiveY
+        Vector3 pos = transform.localPosition;
+        pos.y = inactiveY;
+        transform.localPosition = pos;
+    }
+
     private void OnEnable()
     {
         StopAllCoroutines();
