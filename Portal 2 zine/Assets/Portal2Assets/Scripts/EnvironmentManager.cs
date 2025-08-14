@@ -8,19 +8,18 @@ public class EnvironmentManager : MonoBehaviour
     [System.Serializable]
     public class TextureSwap
     {
-        public Renderer targetRenderer;
-        public Texture newTexture;
+        public Renderer targetRenderer;   // Если указан, меняем у рендера
+        public Material targetMaterial;   // Если указан, меняем у материала напрямую
+        public Texture newTexture;        // Текстура, на которую меняем
     }
 
     [System.Serializable]
     public class PageEnvironmentTrigger
     {
         [TextArea(1, 3)]
-        public string note; 
+        public string note;               // Заметка для себя
         
-        public int pageNumber;                     // На какой странице срабатывает
-        
-                               // Заметка для себя
+        public int pageNumber;            // На какой странице срабатывает
 
         public List<GameObject> activateObjects;   // Объекты, которые включаем
         public List<GameObject> deactivateObjects; // Объекты, которые выключаем
@@ -71,8 +70,20 @@ public class EnvironmentManager : MonoBehaviour
 
         // Меняем текстуры
         foreach (var swap in trigger.textureSwaps)
-            if (swap.targetRenderer != null && swap.newTexture != null)
+        {
+            if (swap.newTexture == null) continue;
+
+            // Если указан Renderer, меняем текстуру у его материала
+            if (swap.targetRenderer != null)
+            {
                 swap.targetRenderer.material.mainTexture = swap.newTexture;
+            }
+            // Если указан материал напрямую, меняем у него
+            else if (swap.targetMaterial != null)
+            {
+                swap.targetMaterial.mainTexture = swap.newTexture;
+            }
+        }
 
         // Проигрываем общий звук, если отмечено
         if (trigger.playSound && globalTriggerSound != null && audioSource != null)

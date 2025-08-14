@@ -5695,6 +5695,24 @@ MonoBehaviour:
     - {fileID: 1277090750}
     textureSwaps: []
     playSound: 1
+  - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    pageNumber: 8
+    activateObjects:
+    - {fileID: 1608433228}
+    deactivateObjects:
+    - {fileID: 1915762027}
+    - {fileID: 1187770628}
+    textureSwaps: []
+    playSound: 1
+  - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    pageNumber: 10
+    activateObjects:
+    - {fileID: 1915762027}
+    - {fileID: 1187770628}
+    deactivateObjects:
+    - {fileID: 1608433228}
+    textureSwaps: []
+    playSound: 1
   - note: ------
     pageNumber: 0
     activateObjects: []
@@ -5710,6 +5728,7 @@ MonoBehaviour:
     - {fileID: 1372977838}
     textureSwaps:
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: b0099dfee7c4dc34c8f0a9012c5552b6, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
@@ -5721,6 +5740,7 @@ MonoBehaviour:
     - {fileID: 1471919294}
     textureSwaps:
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
@@ -5731,8 +5751,10 @@ MonoBehaviour:
     - {fileID: 767634684}
     textureSwaps:
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: bf162ba317530914a90378e506d0eb2c, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
@@ -5743,8 +5765,10 @@ MonoBehaviour:
     deactivateObjects: []
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5755,8 +5779,10 @@ MonoBehaviour:
     - {fileID: 1052265265}
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5767,8 +5793,10 @@ MonoBehaviour:
     - {fileID: 1671169354}
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 4 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5779,8 +5807,10 @@ MonoBehaviour:
     - {fileID: 1244888388}
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 4 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5791,8 +5821,10 @@ MonoBehaviour:
     - {fileID: 1836902960}
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 5 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5802,8 +5834,10 @@ MonoBehaviour:
     - {fileID: 1232516049}
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 5 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -5813,8 +5847,10 @@ MonoBehaviour:
     deactivateObjects: []
     textureSwaps:
     - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: c82986d831d9cf84c95e0a11c9ac23a6, type: 3}
     - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: b1b086e04f75c624fbf79b1ce8389161, type: 3}
     playSound: 1
   audioSource: {fileID: 0}
