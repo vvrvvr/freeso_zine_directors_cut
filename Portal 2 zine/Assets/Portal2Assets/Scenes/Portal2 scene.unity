@@ -5294,7 +5294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1124707000
 Transform:
   m_ObjectHideFlags: 0
@@ -5569,7 +5569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1187770629
 Transform:
   m_ObjectHideFlags: 0
@@ -5665,7 +5665,10 @@ MonoBehaviour:
     - {fileID: 1771001108}
     - {fileID: 1790056478}
     - {fileID: 1277090750}
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
+      newTexture: {fileID: 2800000, guid: 73eb42b4715f489458a289ffbcf9b96e, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     pageNumber: 2
@@ -5675,7 +5678,10 @@ MonoBehaviour:
     - {fileID: 1790056478}
     - {fileID: 1277090750}
     deactivateObjects: []
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: aeba585b46538844988ca644601a4c15, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     pageNumber: 4
@@ -5684,7 +5690,13 @@ MonoBehaviour:
     deactivateObjects:
     - {fileID: 1608433228}
     - {fileID: 1428702833}
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: aeba585b46538844988ca644601a4c15, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
+      newTexture: {fileID: 2800000, guid: 73eb42b4715f489458a289ffbcf9b96e, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     pageNumber: 6
@@ -5693,7 +5705,13 @@ MonoBehaviour:
     - {fileID: 1428702833}
     deactivateObjects:
     - {fileID: 1277090750}
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 2236ab5eb89bd1e4a9ea17eabd99255e, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
+      newTexture: {fileID: 2800000, guid: 69dc2add7f542db4792a845aaa11f5a7, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     pageNumber: 8
@@ -5702,7 +5720,13 @@ MonoBehaviour:
     deactivateObjects:
     - {fileID: 1915762027}
     - {fileID: 1187770628}
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 2236ab5eb89bd1e4a9ea17eabd99255e, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
+      newTexture: {fileID: 2800000, guid: 69dc2add7f542db4792a845aaa11f5a7, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     pageNumber: 10
@@ -5711,7 +5735,13 @@ MonoBehaviour:
     - {fileID: 1187770628}
     deactivateObjects:
     - {fileID: 1608433228}
-    textureSwaps: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: a4fe5ca42ce0f5b4fabbb3013ab6b842, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
+      newTexture: {fileID: 2800000, guid: a4fe5ca42ce0f5b4fabbb3013ab6b842, type: 3}
     playSound: 1
   - note: ------
     pageNumber: 0
@@ -8587,7 +8617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1790056479
 Transform:
   m_ObjectHideFlags: 0
@@ -9415,7 +9445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1915762028
 Transform:
   m_ObjectHideFlags: 0
@@ -12753,7 +12783,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13381,7 +13411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14355,7 +14385,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17516,7 +17546,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20307,7 +20337,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
