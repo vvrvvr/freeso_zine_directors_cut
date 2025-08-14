@@ -5294,7 +5294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1124707000
 Transform:
   m_ObjectHideFlags: 0
@@ -5675,6 +5675,24 @@ MonoBehaviour:
     - {fileID: 1790056478}
     - {fileID: 1277090750}
     deactivateObjects: []
+    textureSwaps: []
+    playSound: 1
+  - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    pageNumber: 4
+    activateObjects:
+    - {fileID: 1277090750}
+    deactivateObjects:
+    - {fileID: 1608433228}
+    - {fileID: 1428702833}
+    textureSwaps: []
+    playSound: 1
+  - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    pageNumber: 6
+    activateObjects:
+    - {fileID: 1608433228}
+    - {fileID: 1428702833}
+    deactivateObjects:
+    - {fileID: 1277090750}
     textureSwaps: []
     playSound: 1
   - note: ------
