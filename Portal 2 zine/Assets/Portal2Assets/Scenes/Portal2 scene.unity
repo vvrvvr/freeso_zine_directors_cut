@@ -4172,7 +4172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &770480954
 Transform:
   m_ObjectHideFlags: 0
@@ -7572,9 +7572,153 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   book: {fileID: 482330086}
   triggers:
-  - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
+  - note: "\u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+      \u0433\u043E\u0442\u043E\u0432\u043E"
+    isActive: 1
+    pageNumber: 0
+    activateObjects:
+    - {fileID: 1471919294}
+    deactivateObjects:
+    - {fileID: 1372977838}
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: b0099dfee7c4dc34c8f0a9012c5552b6, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+      \u0433\u043E\u0442\u043E\u0432\u043E"
+    isActive: 1
     pageNumber: 2
+    activateObjects:
+    - {fileID: 1372977838}
+    deactivateObjects:
+    - {fileID: 1471919294}
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+      \u0433\u043E\u0442\u043E\u0432\u043E"
+    isActive: 1
+    pageNumber: 4
+    activateObjects: []
+    deactivateObjects:
+    - {fileID: 767634684}
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: bf162ba317530914a90378e506d0eb2c, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
+      \u0433\u043E\u0442\u043E\u0432\u043E"
+    isActive: 1
+    pageNumber: 6
+    activateObjects:
+    - {fileID: 767634684}
+    deactivateObjects: []
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 8
+    activateObjects:
+    - {fileID: 1671169354}
+    deactivateObjects:
+    - {fileID: 1052265265}
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 10
+    activateObjects:
+    - {fileID: 1052265265}
+    deactivateObjects:
+    - {fileID: 1671169354}
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 4 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 12
+    activateObjects:
+    - {fileID: 1836902960}
+    deactivateObjects:
+    - {fileID: 1244888388}
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 4 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 14
+    activateObjects:
+    - {fileID: 1244888388}
+    deactivateObjects:
+    - {fileID: 1836902960}
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 5 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 16
+    activateObjects: []
+    deactivateObjects:
+    - {fileID: 1232516049}
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
+    playSound: 1
+  - note: "\u043F\u0430\u0440\u0442 5 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 18
+    activateObjects:
+    - {fileID: 1232516049}
+    deactivateObjects: []
+    textureSwaps:
+    - targetRenderer: {fileID: 288049682665453113}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: c82986d831d9cf84c95e0a11c9ac23a6, type: 3}
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: b1b086e04f75c624fbf79b1ce8389161, type: 3}
+    playSound: 1
+  - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 20
     activateObjects:
     - {fileID: 7479093586452496275}
     deactivateObjects:
@@ -7588,7 +7732,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 4
+    pageNumber: 22
     activateObjects:
     - {fileID: 770480953}
     - {fileID: 1564230743}
@@ -7608,7 +7752,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 6
+    pageNumber: 24
     activateObjects:
     - {fileID: 1065327950}
     deactivateObjects:
@@ -7626,7 +7770,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 8
+    pageNumber: 26
     activateObjects:
     - {fileID: 588182558}
     deactivateObjects:
@@ -7644,7 +7788,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 10
+    pageNumber: 28
     activateObjects: []
     deactivateObjects:
     - {fileID: 681479156}
@@ -7661,7 +7805,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 12
+    pageNumber: 30
     activateObjects:
     - {fileID: 681479156}
     deactivateObjects: []
@@ -7676,155 +7820,11 @@ MonoBehaviour:
       targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: 92aff9c6f75cd424591ccbdfc78d0f52, type: 3}
     playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
-      \u0433\u043E\u0442\u043E\u0432\u043E"
-    isActive: 0
-    pageNumber: 0
-    activateObjects:
-    - {fileID: 1471919294}
-    deactivateObjects:
-    - {fileID: 1372977838}
-    textureSwaps:
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: b0099dfee7c4dc34c8f0a9012c5552b6, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
-      \u0433\u043E\u0442\u043E\u0432\u043E"
-    isActive: 0
-    pageNumber: 2
-    activateObjects:
-    - {fileID: 1372977838}
-    deactivateObjects:
-    - {fileID: 1471919294}
-    textureSwaps:
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
-      \u0433\u043E\u0442\u043E\u0432\u043E"
-    isActive: 0
-    pageNumber: 4
-    activateObjects: []
-    deactivateObjects:
-    - {fileID: 767634684}
-    textureSwaps:
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: b38f1555bc2bc5246a7c1a87e231e51c, type: 3}
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: bf162ba317530914a90378e506d0eb2c, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
-      \u0433\u043E\u0442\u043E\u0432\u043E"
-    isActive: 0
-    pageNumber: 6
-    activateObjects:
-    - {fileID: 767634684}
-    deactivateObjects: []
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 10
-    activateObjects:
-    - {fileID: 1671169354}
-    deactivateObjects:
-    - {fileID: 1052265265}
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 9f1ddd79b2fa5444b9f0150b809a8dd0, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 1de44ed7810b21c4aace0cb3859de92e, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 12
-    activateObjects:
-    - {fileID: 1052265265}
-    deactivateObjects:
-    - {fileID: 1671169354}
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 4 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 16
-    activateObjects:
-    - {fileID: 1836902960}
-    deactivateObjects:
-    - {fileID: 1244888388}
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: beaff2d80f886c04bbee441e52b721a4, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 773024a581e251d4ca782703487daafe, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 4 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 18
-    activateObjects:
-    - {fileID: 1244888388}
-    deactivateObjects:
-    - {fileID: 1836902960}
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 5 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 22
-    activateObjects: []
-    deactivateObjects:
-    - {fileID: 1232516049}
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: 41c583e7c8886de4f891d0b01e7c6e40, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: f3153401cb3ac504b8ee716969cd8b4f, type: 3}
-    playSound: 1
-  - note: "\u043F\u0430\u0440\u0442 5 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
-    isActive: 0
-    pageNumber: 24
-    activateObjects:
-    - {fileID: 1232516049}
-    deactivateObjects: []
-    textureSwaps:
-    - targetRenderer: {fileID: 288049682665453113}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: c82986d831d9cf84c95e0a11c9ac23a6, type: 3}
-    - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 0}
-      newTexture: {fileID: 2800000, guid: b1b086e04f75c624fbf79b1ce8389161, type: 3}
-    playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 26
+    pageNumber: 32
     activateObjects:
-    - {fileID: 7479093586452496275}
+    - {fileID: 770480953}
     deactivateObjects:
     - {fileID: 1124706999}
     - {fileID: 1771001108}
@@ -7835,19 +7835,19 @@ MonoBehaviour:
       targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
       newTexture: {fileID: 2800000, guid: 73eb42b4715f489458a289ffbcf9b96e, type: 3}
     - targetRenderer: {fileID: 91937471}
-      targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
-      newTexture: {fileID: 2800000, guid: b1b086e04f75c624fbf79b1ce8389161, type: 3}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 1730927a71be8d34a81817661a301e1a, type: 3}
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 28
+    pageNumber: 34
     activateObjects:
     - {fileID: 1124706999}
     - {fileID: 1771001108}
     - {fileID: 1790056478}
     - {fileID: 1277090750}
     deactivateObjects:
-    - {fileID: 7479093586452496275}
+    - {fileID: 770480953}
     textureSwaps:
     - targetRenderer: {fileID: 91937471}
       targetMaterial: {fileID: 0}
@@ -7855,7 +7855,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 30
+    pageNumber: 36
     activateObjects:
     - {fileID: 1277090750}
     deactivateObjects:
@@ -7871,7 +7871,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 32
+    pageNumber: 38
     activateObjects:
     - {fileID: 1608433228}
     - {fileID: 1428702833}
@@ -7887,7 +7887,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 34
+    pageNumber: 40
     activateObjects:
     - {fileID: 1608433228}
     deactivateObjects:
@@ -7903,7 +7903,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 36
+    pageNumber: 42
     activateObjects:
     - {fileID: 1915762027}
     - {fileID: 1187770628}
@@ -7917,13 +7917,6 @@ MonoBehaviour:
       targetMaterial: {fileID: 2100000, guid: 2e5b15f0d8c1c97408fa966df9c13579, type: 2}
       newTexture: {fileID: 2800000, guid: 4b1fb5222d945bf4ca805929e8aafe16, type: 3}
     playSound: 1
-  - note: ------
-    isActive: 1
-    pageNumber: 0
-    activateObjects: []
-    deactivateObjects: []
-    textureSwaps: []
-    playSound: 0
   audioSource: {fileID: 0}
   globalTriggerSound: {fileID: 0}
 --- !u!1 &1231424290
@@ -28344,7 +28337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &7480019498164115457
 GameObject:
   m_ObjectHideFlags: 0
