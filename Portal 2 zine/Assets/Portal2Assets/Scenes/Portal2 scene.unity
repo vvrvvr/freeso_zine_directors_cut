@@ -7602,6 +7602,9 @@ MonoBehaviour:
     - targetRenderer: {fileID: 0}
       targetMaterial: {fileID: 2100000, guid: 2212361a72647f84e99ef8fcca6aac3e, type: 2}
       newTexture: {fileID: 2800000, guid: d0846f67be3507f4a91cdf4907fd8cdf, type: 3}
+    - targetRenderer: {fileID: 346280289182593981}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: d0846f67be3507f4a91cdf4907fd8cdf, type: 3}
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
@@ -7616,6 +7619,9 @@ MonoBehaviour:
       newTexture: {fileID: 2800000, guid: d0846f67be3507f4a91cdf4907fd8cdf, type: 3}
     - targetRenderer: {fileID: 0}
       targetMaterial: {fileID: 2100000, guid: 2212361a72647f84e99ef8fcca6aac3e, type: 2}
+      newTexture: {fileID: 2800000, guid: d0846f67be3507f4a91cdf4907fd8cdf, type: 3}
+    - targetRenderer: {fileID: 346280289182593981}
+      targetMaterial: {fileID: 0}
       newTexture: {fileID: 2800000, guid: d0846f67be3507f4a91cdf4907fd8cdf, type: 3}
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
@@ -7632,6 +7638,43 @@ MonoBehaviour:
     - targetRenderer: {fileID: 0}
       targetMaterial: {fileID: 2100000, guid: 2212361a72647f84e99ef8fcca6aac3e, type: 2}
       newTexture: {fileID: 2800000, guid: 4eea68ffb7349bc4d9fe09ba15a3b4cd, type: 3}
+    - targetRenderer: {fileID: 346280289182593981}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 164d8daaaea8c044eaec3fc05515b33c, type: 3}
+    playSound: 1
+  - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 10
+    activateObjects: []
+    deactivateObjects:
+    - {fileID: 681479156}
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 4eea68ffb7349bc4d9fe09ba15a3b4cd, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2212361a72647f84e99ef8fcca6aac3e, type: 2}
+      newTexture: {fileID: 2800000, guid: 4eea68ffb7349bc4d9fe09ba15a3b4cd, type: 3}
+    - targetRenderer: {fileID: 346280289182593981}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 164d8daaaea8c044eaec3fc05515b33c, type: 3}
+    playSound: 1
+  - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
+    isActive: 1
+    pageNumber: 12
+    activateObjects:
+    - {fileID: 681479156}
+    deactivateObjects: []
+    textureSwaps:
+    - targetRenderer: {fileID: 91937471}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 1730927a71be8d34a81817661a301e1a, type: 3}
+    - targetRenderer: {fileID: 0}
+      targetMaterial: {fileID: 2100000, guid: 2212361a72647f84e99ef8fcca6aac3e, type: 2}
+      newTexture: {fileID: 2800000, guid: 1730927a71be8d34a81817661a301e1a, type: 3}
+    - targetRenderer: {fileID: 346280289182593981}
+      targetMaterial: {fileID: 0}
+      newTexture: {fileID: 2800000, guid: 92aff9c6f75cd424591ccbdfc78d0f52, type: 3}
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435
       \u0433\u043E\u0442\u043E\u0432\u043E"
@@ -9792,12 +9835,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5962032502419731795}
   - {fileID: 7023309889118468645}
   - {fileID: 596774266824556415}
   - {fileID: 5411231212013380112}
   - {fileID: 3302411645037462473}
   - {fileID: 4625443872074115039}
-  - {fileID: 5962032502419731795}
   - {fileID: 153438466684064814}
   - {fileID: 4572176951884330193}
   - {fileID: 9016189410976560154}
@@ -14967,7 +15010,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: aad66e7c3e0649d408ed52d27cefe6ac, type: 3}
+  - {fileID: 2100000, guid: f5e0f3add2402574484710da0b40ab18, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15487,7 +15530,7 @@ GameObject:
   - component: {fileID: 6159807838890430288}
   - component: {fileID: 346280289182593981}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: WALL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
