@@ -7630,7 +7630,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 8
+    pageNumber: 10
     activateObjects:
     - {fileID: 1671169354}
     deactivateObjects:
@@ -7645,7 +7645,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 10
+    pageNumber: 12
     activateObjects:
     - {fileID: 1052265265}
     deactivateObjects:
@@ -7660,7 +7660,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 4 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 12
+    pageNumber: 16
     activateObjects:
     - {fileID: 1836902960}
     deactivateObjects:
@@ -7675,7 +7675,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 4 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 14
+    pageNumber: 18
     activateObjects:
     - {fileID: 1244888388}
     deactivateObjects:
@@ -7690,7 +7690,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 5 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 16
+    pageNumber: 22
     activateObjects: []
     deactivateObjects:
     - {fileID: 1232516049}
@@ -7704,7 +7704,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u043F\u0430\u0440\u0442 5 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 18
+    pageNumber: 24
     activateObjects:
     - {fileID: 1232516049}
     deactivateObjects: []
@@ -7718,7 +7718,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 20
+    pageNumber: 28
     activateObjects:
     - {fileID: 7479093586452496275}
     deactivateObjects:
@@ -7732,7 +7732,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 22
+    pageNumber: 30
     activateObjects:
     - {fileID: 770480953}
     - {fileID: 1564230743}
@@ -7752,7 +7752,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 24
+    pageNumber: 38
     activateObjects:
     - {fileID: 1065327950}
     deactivateObjects:
@@ -7770,7 +7770,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 26
+    pageNumber: 40
     activateObjects:
     - {fileID: 588182558}
     deactivateObjects:
@@ -7788,7 +7788,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 28
+    pageNumber: 48
     activateObjects: []
     deactivateObjects:
     - {fileID: 681479156}
@@ -7805,7 +7805,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u044D\u043C\u043F\u0442\u0438 \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 30
+    pageNumber: 50
     activateObjects:
     - {fileID: 681479156}
     deactivateObjects: []
@@ -7822,7 +7822,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 1 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 32
+    pageNumber: 58
     activateObjects:
     - {fileID: 770480953}
     deactivateObjects:
@@ -7840,7 +7840,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 1 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 34
+    pageNumber: 60
     activateObjects:
     - {fileID: 1124706999}
     - {fileID: 1771001108}
@@ -7855,7 +7855,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 36
+    pageNumber: 68
     activateObjects:
     - {fileID: 1277090750}
     deactivateObjects:
@@ -7871,7 +7871,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 2 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 38
+    pageNumber: 70
     activateObjects:
     - {fileID: 1608433228}
     - {fileID: 1428702833}
@@ -7887,7 +7887,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 40
+    pageNumber: 76
     activateObjects:
     - {fileID: 1608433228}
     deactivateObjects:
@@ -7903,7 +7903,7 @@ MonoBehaviour:
     playSound: 1
   - note: "\u0430\u043F\u043E\u043A \u043F\u0430\u0440\u0442 3 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435"
     isActive: 1
-    pageNumber: 42
+    pageNumber: 78
     activateObjects:
     - {fileID: 1915762027}
     - {fileID: 1187770628}
