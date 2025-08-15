@@ -18,7 +18,9 @@ public class EnvironmentManager : MonoBehaviour
     {
         [TextArea(1, 3)]
         public string note;               // Заметка для себя
-        
+
+        public bool isActive = true;      // ✅ Новая галочка для включения/отключения триггера
+
         public int pageNumber;            // На какой странице срабатывает
 
         public List<GameObject> activateObjects;   // Объекты, которые включаем
@@ -42,6 +44,9 @@ public class EnvironmentManager : MonoBehaviour
     {
         foreach (var trigger in triggers)
         {
+            // ✅ Пропускаем, если триггер отключен
+            if (!trigger.isActive) continue;
+
             if (trigger.pageNumber == book.currentPage)
             {
                 if (lastTriggeredPage == trigger.pageNumber)
